@@ -1,0 +1,12 @@
+//To accept two integer and check whether they are equal or not
+#include<stdio.h>
+int main(){
+int a=10,b=20,n,num;
+printf("enter the value 1 &2 : ");
+scanf("%d",&num);
+if(a==num && b==num){
+  printf("%d is to  equal to %d,%d",num,a,b);
+else
+  printf("%d is to not equal to %d,%d",num,a,b);
+  }
+  }
